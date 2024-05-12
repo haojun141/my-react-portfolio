@@ -22,11 +22,11 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional e-commerce website with features like payment, API and .",
+    technologies: ["Javascript", "Firebase", "React", "Bootstrap"],
   },
   {
-    title: "Task Management App",
+    title: "Candy Crush",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
@@ -40,7 +40,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
+    title: "MERN project",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
@@ -49,7 +49,5 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  email: "haojun0114@outlook.com",
 };
