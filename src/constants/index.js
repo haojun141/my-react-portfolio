@@ -1,7 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `As a recent graduate with a specialization in front-end development, I am deeply enthusiastic about crafting engaging user interfaces and seamless experiences. Armed with a solid foundation in JavaScript, React, and Vue.js, I am eager to dive into the world of web development. Additionally, my familiarity with database technologies such as MySQL and Firebase positions me to contribute effectively to both front-end and back-end development tasks. I am eager to collaborate with teams to bring innovative ideas to life and contribute to the creation of impactful digital solutions.`;
 
@@ -19,32 +18,31 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "E-Commerce Website, quiklah.com",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like payment, API and .",
-    technologies: ["Javascript", "Firebase", "React", "Bootstrap"],
+      "A fully functional e-commerce website with features like linking API to payment platform.",
+    technologies: [
+      "Javascript",
+      "Firebase",
+      "React",
+      "Bootstrap",
+      "Google Cloud",
+    ],
   },
   {
-    title: "Candy Crush",
+    title: "Telegram Remindere bot @dontfrogetbot",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      " Easily set reminders for tasks or events with a simple and user-friendly interface.",
+    technologies: ["Javascript", "Heroku"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "MERN project",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["React", "Tailwind"],
   },
 ];
 

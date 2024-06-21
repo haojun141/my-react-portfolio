@@ -48,6 +48,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 1.2 }}
               src={me}
               alt="my profile"
+              className="w-[30rem] h-[38rem] object-cover"
             />
           </div>
         </div>
