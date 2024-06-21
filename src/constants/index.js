@@ -4,7 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 
 export const HERO_CONTENT = `As a recent graduate with a specialization in front-end development, I am deeply enthusiastic about crafting engaging user interfaces and seamless experiences. Armed with a solid foundation in JavaScript, React, and Vue.js, I am eager to dive into the world of web development. Additionally, my familiarity with database technologies such as MySQL and Firebase positions me to contribute effectively to both front-end and back-end development tasks. I am eager to collaborate with teams to bring innovative ideas to life and contribute to the creation of impactful digital solutions.`;
 
-export const ABOUT_TEXT = `As a recent front-end development graduate, I'm thrilled to bring my passion for crafting engaging user experiences to new opportunities. Having recently completed an enriching internship at a reputable company, where I dedicated nearly a year to honing my skills, I'm excited to share that I've successfully launched a website for the company. This hands-on experience has not only strengthened my proficiency in JavaScript, React, and Vue.js but also provided me with invaluable insights into the real-world challenges of web development. With a solid foundation in front-end technologies and a flair for creative problem-solving, I'm eager to continue my journey in the industry, contributing to impactful projects and driving business success through innovative digital solutions.`;
+export const ABOUT_TEXT = `As a recent front-end development graduate, I'm thrilled to bring my passion for crafting engaging user experiences to new opportunities. After completing an internship where I dedicated nearly a year to honing my skills, I'm excited to share that I've successfully launched a website for the company. This hands-on experience has strengthened my proficiency in JavaScript, React, and Vue.js and provided invaluable insights into the real-world challenges of web development. With a solid foundation in front-end technologies and a flair for creative problem-solving, I'm eager to continue my journey in the industry, contributing to impactful projects and driving business success through innovative digital solutions.`;
 
 export const EXPERIENCES = [
   {
@@ -21,14 +21,9 @@ export const PROJECTS = [
     title: "E-Commerce Website, quiklah.com",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like linking API to payment platform.",
-    technologies: [
-      "Javascript",
-      "Firebase",
-      "React",
-      "Bootstrap",
-      "Google Cloud",
-    ],
+      "An innovative AI-powered note-taking tool designed to assist businesses in recording meetings and summarizing key points, enhancing productivity and ensuring nothing important is missed.",
+    technologies: ["Firebase", "React", "Stripe", "Google Cloud"],
+    link: "https://www.quiklah.com",
   },
   {
     title: "Telegram Remindere bot @dontfrogetbot",
@@ -36,6 +31,7 @@ export const PROJECTS = [
     description:
       " Easily set reminders for tasks or events with a simple and user-friendly interface.",
     technologies: ["Javascript", "Heroku"],
+    link: "https://t.me/dontfrogetbot",
   },
   {
     title: "Portfolio Website",
@@ -43,6 +39,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind"],
+    link: "https://www.yourportfolio.com",
   },
 ];
 
