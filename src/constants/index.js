@@ -11,19 +11,19 @@ export const EXPERIENCES = [
     year: "2023 - Present",
     role: "Full stack Developer",
     company: "ATTOPOLIS (B2B International Medical Digital Platform)",
-    description: `During my internship, I led the development of key features for the company's website. One significant addition was implementing a mass email registration function with duplicate detection, ensuring a clean database. Additionally, I independently created an AI audio summarizer, enhancing user experience by providing concise summaries of audio content. These experiences have honed my skills and readiness to contribute effectively to new projects.`,
+    description: `During my internship, I led the development of key features for the company's website. One significant addition was integrating a third-party AI audio summarizer API, enhancing user experience by providing concise summaries of audio content. Additionally, I implemented a mass email registration function with duplicate detection, ensuring a clean database. These experiences have honed my skills and prepared me to contribute effectively to new projects.`,
     technologies: ["Javascript", "React", "Vue", "Firebase", "Tailwind"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "E-Commerce Website (Fully functional by September)",
     image: project1,
     description:
       "An innovative AI-powered note-taking tool designed to assist businesses in recording meetings and summarizing key points, enhancing productivity and ensuring nothing important is missed.",
     technologies: ["Firebase", "React", "Stripe", "Google Cloud"],
-    link: "https://www.quiklah.com",
+    link: "https://login.quiklah.com/",
   },
   {
     title: "Telegram Remindere bot",
@@ -39,10 +39,11 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind"],
-    link: "https://www.yourportfolio.com",
+    link: "https://haojunwebdev.tech",
   },
 ];
 
 export const CONTACT = {
   email: "haojun0114@outlook.com",
+  telephone: "8113 0633",
 };
