@@ -1,10 +1,11 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { IoLogoVue } from "react-icons/io5";
-import { SiLinear, SiMongodb } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa6";
 import { FaNodeJs } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 import { motion } from "framer-motion";
+import { RiJavascriptFill } from "react-icons/ri";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -30,12 +31,21 @@ const Technologies = () => {
       >
         Technologies
       </motion.h2>
+
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1.5 }}
         className="flex flex-wrap items-center justify-center gap-4"
       >
+        <motion.div
+          variants={iconVariants(3.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <RiJavascriptFill className="text-7xl text-yellow-500" />
+        </motion.div>
         <motion.div
           variants={iconVariants(2.5)}
           initial="initial"
