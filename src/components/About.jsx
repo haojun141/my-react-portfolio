@@ -17,7 +17,7 @@ const About = () => {
         >
           <div className="flex items-center justify-center">
             <img
-              className="rounded-2xl w-[30rem] h-[38rem]"
+              className="rounded-2xl w-full max-w-lg h-auto lg:w-[30rem] lg:h-[38rem]"
               src={aboutImg}
               alt="about"
             />
