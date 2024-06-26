@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "./components/Hero";
+import Self from "./components/Self";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Technologies from "./components/Technologies";
@@ -15,7 +15,7 @@ const App = () => {
       </div>
       <div className="container mx-auto px-8">
         <Navbar />
-        <Hero />
+        <Self />
         <About />
         <Technologies />
         <Experience />

@@ -1,5 +1,5 @@
 import React from "react";
-import { HERO_CONTENT } from "../constants";
+import { MY_CONTENT } from "../constants";
 import me from "../assets/dp.jpg";
 import { motion } from "framer-motion";
 
@@ -8,7 +8,7 @@ const container = (delay) => ({
   visible: { x: 0, opacity: 1, transition: { duration: 0.5, delay: delay } },
 });
 
-const Hero = () => {
+const Self = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
@@ -34,9 +34,9 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter text-xl"
+              className="my-2 max-w-xl py-6 font-light tracking-tighter text-base sm:text-sm md:text-lg lg:text-2xl leading-relaxed sm:leading-tight md:leading-normal"
             >
-              {HERO_CONTENT}
+              {MY_CONTENT}
             </motion.p>
           </div>
         </div>
@@ -48,7 +48,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 1.2 }}
               src={me}
               alt="my profile"
-              className="w-[35rem] h-[40rem] object-cover"
+              className="rounded-2xl w-full max-w-lg h-auto lg:w-[30rem] lg:h-[38rem] object-cover"
             />
           </div>
         </div>
@@ -57,4 +57,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Self;
