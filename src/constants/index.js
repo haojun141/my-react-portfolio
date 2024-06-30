@@ -11,7 +11,7 @@ export const EXPERIENCES = [
     year: "2023 - Present",
     role: "Full stack Developer",
     company: "ATTOPOLIS (B2B International Medical Digital Platform)",
-    description: `During my internship, I led the development of key features for the company's website. One significant addition was integrating a third-party AI audio summarizer API, enhancing user experience by providing concise summaries of audio content. Additionally, I implemented a mass email registration function with duplicate detection, ensuring a clean database. These experiences have honed my skills and prepared me to contribute effectively to new projects.`,
+    description: `Led the development of key features for the company's website. Integrated a third-party AI audio summarizer API, improving user experience by providing concise summaries of audio content. Implemented mass email registration with duplicate detection, ensuring database cleanliness. These projects enhanced my technical skills and prepared me for future contributions.`,
     technologies: ["Javascript", "React", "Vue", "Firebase", "Tailwind"],
   },
 ];

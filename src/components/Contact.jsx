@@ -32,7 +32,7 @@ const Contact = () => {
         <a href={`mailto:${CONTACT.email}`} className="border-b">
           {CONTACT.email}
         </a>
-        <p>Tele: {CONTACT.telephone}</p>
+        <p>Tel: {CONTACT.telephone}</p>
       </div>
     </div>
   );

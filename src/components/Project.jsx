@@ -11,7 +11,7 @@ const Project = () => {
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl"
       >
-        Projects (Clickable)
+        Projects <span className="text-base">(Clickable)</span>
       </motion.h2>
       <div className="">
         {PROJECTS.map((project, index) => (
