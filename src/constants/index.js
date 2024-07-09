@@ -23,7 +23,7 @@ export const PROJECTS = [
     description:
       "An innovative AI-powered note-taking tool designed to assist businesses in recording meetings and summarizing key points, enhancing productivity and ensuring nothing important is missed.",
     technologies: ["Firebase", "React", "Stripe", "Google Cloud"],
-    link: "https://login.quiklah.com/login",
+    link: "https://quiklah.com",
   },
   {
     title: "Telegram Remindere bot",
