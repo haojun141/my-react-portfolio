@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/web.jpeg";
 import project2 from "../assets/projects/telebotimage.jpeg";
-import project3 from "../assets/projects/pf.png";
+import project3 from "../assets/projects/task.png";
 
 export const MY_CONTENT = `As a soon-to-be graduate, I am deeply enthusiastic about crafting engaging user interfaces and seamless experiences. With a solid foundation in JavaScript, React, and Vue.js, I am eager to dive into the world of web development. Additionally, my familiarity with database technologies such as MySQL and Firebase positions me to contribute effectively to both front-end and back-end development tasks. I am excited to collaborate with teams to bring innovative ideas to life and contribute to the creation of impactful digital solutions.`;
 
@@ -34,12 +34,11 @@ export const PROJECTS = [
     link: "https://t.me/dontfrogetbot",
   },
   {
-    title: "Portfolio Website",
+    title: "Final Year Project",
     image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "Tailwind"],
-    link: "https://haojunwebdev.tech",
+    description: "Gamified task managment application for mobile devices.",
+    technologies: ["React Native", "Jest", "Expo"],
+    link: "https://snack.expo.dev/@haojun1212/final-year-project",
   },
 ];
 
