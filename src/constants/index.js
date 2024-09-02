@@ -18,12 +18,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website (Fully functional by September)",
+    title: "E-Commerce Website",
     image: project1,
     description:
       "An innovative AI-powered note-taking tool designed to assist businesses in recording meetings and summarizing key points, enhancing productivity and ensuring nothing important is missed.",
     technologies: ["Firebase", "React", "Stripe", "Google Cloud"],
-    link: "https://quiklah.com",
+    link: "https://www.quiklah.com/product-page/medical-meeting-transcriber",
   },
   {
     title: "Telegram Remindere bot",
